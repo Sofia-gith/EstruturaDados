@@ -4,7 +4,7 @@
 // Lista linear sequencial
 // etsa lista, é uma lista composta por um arranjo
 
-bool inserirElemLista(LISTA* l, REGUSTRO reg, int){
+bool inserirElemLista(LISTA* l, REGISTRO reg, int){
     int j;
     if((l->nroElem>=TAM_MAX) || (i<0) || (i>l->nroElem)){
         return false;

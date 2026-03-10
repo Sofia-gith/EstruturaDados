@@ -2,7 +2,7 @@
 
 // Inicialização de uma lista ligada
 
-bool InicializarLista(LISTA* l){
+int InicializarLista(LISTA* l){
     int j;
 
     for(i=0; i<MAX-1; i++){
