@@ -51,3 +51,12 @@ bool push(PILHA* p, REGISTRO reg){
 }
 
 
+//exclusão de um elemento
+
+bool excluirElemento(PILHA* p, REGISTRO* reg){
+    if(p->topo == -1) return false;
+    *reg = p->A[p->topo];
+    p->topo--;
+    return true;
+}
+
