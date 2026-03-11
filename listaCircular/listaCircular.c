@@ -54,3 +54,19 @@ PONT buscaSeqExc(LISTA* l, TIPOCHAVE ch, PONT* ant){
     if(atual != l-> cabeca && atual->reg.chave == ch) return atual;
     return NULL;
 }
+
+        // desse modo, apenas necessita de verificação caso o atual endereço seja diferente do nó cabeça
+        // se for igual, então a chave não foi encontrada
+        
+
+
+//excluindo elemento
+
+bool excluirElemLista(LISTA* l, TIPOCHAVE ch){
+    PONT ant, i;
+    if(i == NULL) return false;
+    *ant ->PROX = i->prox;
+    free(i);
+    return true;
+}
+ 
