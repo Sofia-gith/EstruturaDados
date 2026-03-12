@@ -20,6 +20,7 @@ typedef struct{
 }FILA;
 
 
+
 // inicializando a fila
 void inicializarFila(FILA* f){
     f->inicio = NULL;
